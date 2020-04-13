@@ -5,6 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :articles
   has_many :games
+
   # has_one_attached :photo //on a une erreur sur ce code ca bloque la creation des controllers et des commandes TL//
 
   validates :email, uniqueness: true
