@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :articles
   has_many :games
-  has_one_attached :photo
+  # has_one_attached :photo
 
   validates :email, uniqueness: true
   validates :email, presence: true

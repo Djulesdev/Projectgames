@@ -1,0 +1,6 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-close-tag.fullMode": true
+}
